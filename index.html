@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link type="text/css" rel="stylesheet" href="css/index_style.css">
+        <link rel="icon" href="images/logo/2.png">
+        <script src="javascript/topNav.js" defer></script>
+        <title>Maiden Arts and Crafts</title>
+    </head>
+
+    <body>
+    <div>
+        <div class="navbar-container">
+            <div class="navbar" id="myNavbar">
+                <div class="navbar-left">
+                    <a href="index.html"><img src="images/logo/photo1699152782.jpeg" alt="Home"></a>
+                    <div class="maiden-crafts"><a href="index.html" class="home1"> Maiden Crafts </a></div>
+                </div>
+                <div class="main-navbar" data-visible="false">
+                        <div class="responsive"><a href="index.html">Home</a></div>
+                        <div class="responsive"><a href="#abt">About</a></div>
+                        <div class="responsive"><a href="html/allProducts.html">Products</a></div>
+                        <div class="responsive"><a href="#contacts">Contacts</a></div>
+                        <div class="responsive"><a onclick="document.getElementById('sign-in').style.display='block'" style="width:auto;">Sign In</a></div>
+                        <div class="responsive"><a onclick="document.getElementById('sign-up').style.display='block'" style="width:auto;">Sign Up</a></div>
+                        <div class="responsive"><button class="crt" type="submit"><i class="fa fa-shopping-cart"></i></button></div>
+                </div>
+
+                <div class="navbar-center" aria-hidden="true">
+                    <div class="HomePage"><a href="index.html">Home</a></div>
+                    <div class="HomePage"><a href="#abt">About</a></div>
+                    <div class="HomePage"><a href="html/allProducts.html">Products</a></div>
+                    <div class="HomePage"><a href="#contacts">Contacts</a></div>
+                </div>
+
+                <div class="navbar-right">
+                    <div class="addCart"><button class="crt" type="submit"><i class="fa fa-shopping-cart"></i></button></div>
+                    <div class="join-now"><a onclick="document.getElementById('sign-up').style.display='block'" style="width:auto;">Sign Up</a></div>
+                </div>
+
+                <button aria-controls="main-navbar" aria-expanded="false" class="menu"><span class="sr-only">Menu</span></button>
+            </div>
+        </div>
+
+        <section>
+            <div class="slideshow">
+                <div class="slide active">
+                    <img src="images/slideshow/photo1699152831.jpeg" alt="slide1">
+                </div>
+                <div class="slide">
+                    <img src="images/slideshow/photo1699152831(1).jpeg" alt="slide2">
+                </div>
+                <div class="slide">
+                    <img src="images/slideshow/photo1699152831(2).jpeg" alt="slide3">
+                </div>
+
+                <div class="slideshow-navigation">
+                    <div class="btn active"></div>
+                    <div class="btn"></div>
+                    <div class="btn"></div>
+                </div>
+            </div>
+        </section>
+
+        <div id="sign-up" class="container">
+            <div class="sign-up-container animate">
+                <span onclick="document.getElementById('sign-up').style.display='none'"class="close" title="Close Modal">&times;</span>
+                <h1>Sign Up</h1>
+                <h4>Maiden Crafts</h4>
+                <form action="intro.html">
+                    <label>Username</label>
+                    <input type="text" placeholder="Enter Username" id="Username" name="uname" required>
+                    <label>Email</label>
+                    <input type="text" placeholder="Enter Email" id="Email" name="email" required>
+                    <label>Password</label>
+                    <input type="password" placeholder="Enter Password" id="Password" name="psw" required>
+                    <input type="submit" value="Sign Up">
+                </form>
+                <p>Already have an account? <a class="login" onclick="document.getElementById('sign-in').style.display='block'; document.getElementById('sign-up').style.display='none'">Login Here</a></p>
+            </div>
+        </div>
+        
+        <div id="sign-in" class="container">
+            <div class="sign-in-container animate">
+                <span onclick="document.getElementById('sign-in').style.display='none'"class="close" title="Close Modal">&times;</span>
+                <h1>Sign In</h1>
+                <form action="intro.html">
+                    <label>Username</label>
+                    <input type="text" placeholder="Enter Username" id="Username" name="uname" required>
+                    <label>Password</label>
+                    <input type="password" placeholder="Enter Password" id="Password" name="psw" required>
+                    <input type="submit" value="Login">
+                    <label><input type="checkbox" checked="checked" name="remember">Remember Me</label>
+                </form>
+                <p><a href="">Forgot Password?</a></p>
+            </div>
+        </div>
+
+        <div class="abt" id="abt">
+            <div class="abt-container">
+                <div class="abt-img">
+                    <img class="img1" src="images/logo/photo1699152782 (1).jpeg" alt="Maiden Crafts Logo">
+                </div>
+                <div class="abt-text">
+                    <h1>About Maiden Crafts</h1>
+                    <p>We're all about turning your wildest ideas and passions into vibrant, adhesive creations. We're not just a sticker business; we're your creative partner in the world of self-expression. Our mission is to empower individuals, businesses, and organizations to make their mark with the finest quality custom stickers.</p>
+                    <p>Our stickers are more than just adhesive paper - they're a canvas for your imagination. From sleek, professional branding to whimsical personalization, we offer a diverse range of sticker solutions for every occasion. Whether you're promoting your brand, celebrating a special event, or adding flair to your valuable things, we've got you covered.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="contents" id="main">
+            <h1>Products</h1>
+            <a href="html/allProducts.html" class="prd">See all</a>
+        </div>
+
+        <div class = "main">
+            <div class ="column"><a href="html/product1_description.html">
+                <img src="images/product/flower1.jpeg" alt="img1">
+                <h3> Minimalist Flower (ver1) </h3>
+                <br>
+                <p class = "price"> Php35.00 </p>
+                <br>
+                <p> Waterproof Sticker of a pink flower</p>
+                </a>
+            </div>
+
+            <div class ="column"><a href="html/product2_description.html">
+                <img src="images/product/flower2.png" alt="img2">
+                <h3> Minimalist Flower (ver2) </h3>
+                <br>
+                <p class = "price"> Php35.00</p>
+                <br>
+                <p> One line art sticker of a green flower</p>
+                </a>
+            </div>
+
+            <div class="column"><a href="html/product3_description.html">
+                <img src="images/product/flower3.png" alt="img3">
+                <h3> Minimalist Flower (ver3)</h3>
+                <br>
+                <p class = "price"> Php40.00</p>
+                <br>
+                <p> Waterproof One line art of blue flower </p>
+                </a>
+            </div>
+
+            <div class="column"><a href="html/product4_description.html">
+                <img src="images/product/flower4.png" alt="img3">
+                <h3> Minimalist Flower (ver4)</h3>
+                <br>
+                <p class = "price"> Php40.00</p>
+                <br>
+                <p> Waterproof One line art of brown flower </p>
+                </a>
+            </div>
+
+            <div class="column"><a href="html/product5_description.html">
+                <img src="images/product/flower5.png" alt="img3">
+                <h3> Minimalist Flower (ver5)</h3>
+                <br>
+                <p class = "price"> Php40.00</p>
+                <br>
+                <p> Waterproof One line art of yellow flower </p>
+                </a>
+            </div>
+        </div>
+    
+
+        <section class="contacts" id="contacts">
+            <h1>Contact Us!</h1>
+            <div class="contacts-container">
+                <div class="contact-info">
+                    <div>
+                        <h2>Contact Info</h2>
+                        <ul class="info">
+                            <li>
+                                <span><img src="images/icon/email.png" alt="Email Icon"></span>
+                                <span>
+                                    <p><a href="mailto:tmaidens.craft@gmail.com?subject=Feedback&body=Message">Send Feedback</a></p>
+                                </span>
+                            </li>
+                            <li>
+                                <span><img src="images/icon/fb.png" alt="Facebook Icon"></span>
+                                <span>
+                                    <a href="https://www.facebook.com/yourpage">fb@gmail.com</a>
+                                </span>
+                            </li>
+                            <li>
+                                <span><img src="images/icon/insta.png" alt="Instagram Icon"></span>
+                                <span>
+                                    <a href="https://www.instagram.com/yourpage">insta@gmail.com</a>
+                                </span>
+                            </li>
+                            <li>
+                                <span><img src="images/icon/tiktok.png" alt="TikTok Icon"></span>
+                                <span>
+                                    <a href="https://www.tiktok.com/@yourpage">tiktok@gmail.com</a>
+                                </span>
+                            </li>
+                            <li>
+                                <span><img src="images/icon/phone.png" alt="Phone Icon"></span>
+                                <span>
+                                    <a href="tel:09293967874">0929 396 7874</a>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <ul class="shops">
+                        <h2>Our Shops</h2>
+                        <li class="shop-link">
+                            <a href="https://shopee.ph/maidens" target="_blank">
+                                <img src="images/icon/shopee.png" alt="Shopee Icon">
+                            </a>
+                        </li>
+                        <li class="shop-link">
+                            <a href="https://www.tiktok.com/@yourshop" target="_blank">
+                                <img src="images/icon/tiktok.png" alt="TikTok Shop Icon">
+                            </a>
+                        </li>
+                    </ul>
+                    
+                </div>
+                <div class="contactForm">
+                    <h2>Send a Message</h2>
+                    <div class="formBox">
+                        <div class="inputBox w50">
+                            <input type="text" name="first_name" required>
+                            <span>First Name</span>
+                        </div>
+                        <div class="inputBox w50">
+                            <input type="text" name="last_name" required>
+                            <span>Last Name</span>
+                        </div>
+                        <div class="inputBox w50">
+                            <input type="email" name="email" required>
+                            <span>Email Address</span>
+                        </div>
+                        <div class="inputBox w100">
+                            <textarea name="message" required></textarea>
+                            <span>Write your message here...</span>
+                        </div>
+                        <div class="inputBox w100">
+                            <input type="submit" value="Send">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
+        

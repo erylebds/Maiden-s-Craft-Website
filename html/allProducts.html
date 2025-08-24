@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link type="text/css" rel="stylesheet" href="../css/products_style.css">
+        <link rel="icon" href="../images/logo/2.png">
+        <script src="../javascript/topNav.js" defer></script>
+        <title>Maiden Arts and Crafts</title>
+    </head>
+
+    <body>
+    <o>
+        <div class="navbar-container">
+            <div class="navbar" id="myNavbar">
+                <div class="navbar-left">
+                    <a href="../index.html"><img src="../images/logo/photo1699152782.jpeg" alt="Home"></a>
+                    <div class="maiden-crafts"><a href="/index.html" class="home1"> Maiden Crafts </a></div>
+                </div>
+                <div class="main-navbar" data-visible="false">
+                        <div class="responsive"><a href="../index.html">Home</a></div>
+                        <div class="responsive"><a href="../index.html#abt">About</a></div>
+                        <div class="responsive"><a href="allProducts.html">Products</a></div>
+                        <div class="responsive"><a href="../index.html#contacts">Contacts</a></div>
+                        <div class="responsive"><a onclick="document.getElementById('sign-in').style.display='block'" style="width:auto;">Sign In</a></div>
+                        <div class="responsive"><a onclick="document.getElementById('sign-up').style.display='block'" style="width:auto;">Sign Up</a></div>
+                        <div class="responsive"><button class="crt" type="submit"><i class="fa fa-shopping-cart"></i></button></div>
+                </div>
+
+                <div class="navbar-center" aria-hidden="true">
+                    <div class="HomePage"><a href="../index.html">Home</a></div>
+                    <div class="HomePage"><a href="../index.html#abt">About</a></div>
+                    <div class="HomePage"><a href="allProducts.html">Products</a></div>
+                    <div class="HomePage"><a href="../index.html#contacts">Contacts</a></div>
+                </div>
+
+                <div class="navbar-right">
+                    <div class="addCart"><button class="crt" type="submit"><i class="fa fa-shopping-cart"></i></button></div>
+                    <div class="join-now"><a onclick="document.getElementById('sign-up').style.display='block'" style="width:auto;">Sign Up</a></div>
+                </div>
+
+                <button aria-controls="main-navbar" aria-expanded="false" class="menu"><span class="sr-only">Menu</span></button>
+            </div>
+        </div>
+
+        <div id="sign-up" class="container">
+            <div class="sign-up-container animate">
+                <span onclick="document.getElementById('sign-up').style.display='none'"class="close" title="Close Modal">&times;</span>
+                <h1>Sign Up</h1>
+                <h4>Maiden Crafts</h4>
+                <form action="intro.html">
+                    <label>Username</label>
+                    <input type="text" placeholder="Enter Username" id="Username" name="uname" required>
+                    <label>Email</label>
+                    <input type="text" placeholder="Enter Email" id="Email" name="email" required>
+                    <label>Password</label>
+                    <input type="password" placeholder="Enter Password" id="Password" name="psw" required>
+                    <input type="submit" value="Sign Up">
+                </form>
+                <p>Already have an account? <a class="login" onclick="document.getElementById('sign-in').style.display='block'; document.getElementById('sign-up').style.display='none'">Login Here</a></p>
+            </div>
+        </div>
+        
+        <div id="sign-in" class="container">
+            <div class="sign-in-container animate">
+                <span onclick="document.getElementById('sign-in').style.display='none'"class="close" title="Close Modal">&times;</span>
+                <h1>Sign In</h1>
+                <form action="intro.html">
+                    <label>Username</label>
+                    <input type="text" placeholder="Enter Username" id="Username" name="uname" required>
+                    <label>Password</label>
+                    <input type="password" placeholder="Enter Password" id="Password" name="psw" required>
+                    <input type="submit" value="Login">
+                    <label><input type="checkbox" checked="checked" name="remember">Remember Me</label>
+                </form>
+                <p><a href="">Forgot Password?</a></p>
+            </div>
+        </div>
+
+        <div class="contents">
+            <a href="#">Waterproof</a>
+            <a href="#">Matte</a>
+            <a href="#">Glossy</a>
+            <a href="#">3D</a>
+            <a href="#">Clear</a>
+            <a href="#">Vinyl</a>
+
+            <input type="text" placeholder="Search...">
+
+        </div>
+
+        <div class = "main">
+            <div class ="column"><a href="product1_description.html">
+                <img src="../images/product/flower1.jpeg" alt="img1">
+                <h3> Minimalist Flower (ver 1) </h3>
+
+                <br>
+
+                <p class = "price"> Php35.00 </p>
+            </a>
+            </div>
+
+            <div class ="column"><a href="product2_description.html">
+                <img src="../images/product/flower2.png" alt="img2">
+                <h3> Minimalist Flower (ver 2) </h3>
+
+                <br>
+
+                <p class = "price"> Php35.00</p>
+            </a>
+            </div>
+
+            <div class="column"><a href="product3_description.html">
+                <img src="../images/product/flower3.png" alt="img3">
+                <h3> Minimalist Flower (ver 3)</h3>
+
+                <br>
+
+                <p class = "price"> Php40.00</p>
+            </a>
+            </div>
+
+            <div class="column"><a href="product4_description.html">
+                <img src="../images/product/flower4.png" alt="img3">
+                <h3> Minimalist Flower (ver 4)</h3>
+
+                <br>
+
+                <p class = "price"> Php40.00</p>
+            </a>
+            </div>
+
+            <div class="column"><a href="product5_description.html">
+                <img src="../images/product/flower5.png" alt="img3">
+                <h3> Minimalist Flower (ver 5)</h3>
+
+                <br>
+
+                <p class = "price"> Php40.00</p>
+            </a>
+            </div>
+
+            <div class="column"><a href="product6_description.html">
+                <img src="../images/product/bubblegum and marceline.png" alt="img3">
+                <h3> Princess Bubblegum & Marceline</h3>
+
+                <br>
+
+                <p class = "price"> Php40.00</p>
+            </a>
+            </div>
+
+            <div class="column"><a href="product7_description.html">
+                <img src="../images/product/dog.png" alt="img3">
+                <h3> Golden Retriever</h3>
+
+                <br>
+
+                <p class = "price"> Php35.00</p>
+            </a>
+            </div>
+
+            <div class="column"><a href="product8_description.html">
+                <img src="../images/product/rabbit.png" alt="img3">
+                <h3> Sleeping Rabbit</h3>
+
+                <br>
+
+                <p class = "price"> Php30.00</p>
+            </a>
+            </div>
+
+            <div class="column"><a href="product9_description.html">
+                <img src="../images/product/flower6.png" alt="img3">
+                <h3> Minimalist Flower (ver 6)</h3>
+
+                <br>
+
+                <p class = "price"> Php40.00</p>
+            </a>
+            </div>
+
+            <div class="column"><a href="product10_description.html">
+                <img src="../images/product/flower7.png" alt="img3">
+                <h3> Minimalist Flower (ver 7)</h3>
+
+                <br>
+
+                <p class = "price"> Php40.00</p>
+            </a>
+            </div>
+
+            <div class="column"><a href="product11_description.html">
+                <img src="../images/product/flower8.png" alt="img3">
+                <h3> Minimalist Flower (ver 8)</h3>
+
+                <br>
+
+                <p class = "price"> Php40.00</p>
+            </a>
+            </div>
+
+            <div class="column"><a href="product12_description.html">
+                <img src="../images/product/rabbit2.png" alt="img3">
+                <h3> Rabbit Drinking</h3>
+
+                <br>
+
+                <p class = "price"> Php30.00</p>
+            </a>
+            </div>
+
+            <div class="column"><a href="product13_description.html">
+                <img src="../images/product/rabbit3.png" alt="img3">
+                <h3> Rabbit and Cat Sleeping</h3>
+
+                <br>
+
+                <p class = "price"> Php35.00</p>
+            </a>
+            </div>
+
+            <div class="column"><a href="product14_description.html">
+                <img src="../images/product/rabbit4.png" alt="img3">
+                <h3> Rabbit and Cat Sleeping (ver 2)</h3>
+
+                <br>
+
+                <p class = "price"> Php35.00</p>
+            </a>
+            </div>
+
+            <div class="column"><a href="product15_description.html">
+                <img src="../images/product/Princess Bubblegum and Marceline (ver 2).png" alt="img3">
+                <h3> Princess Bubblegum and Marceline (ver 2)</h3>
+
+                <br>
+
+                <p class = "price"> Php40.00</p>
+            </a>
+            </div>
+        </div>
+    </body>
+</html>
